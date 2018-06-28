@@ -1,5 +1,5 @@
 class ChangePostStatusDataTypeToPosts < ActiveRecord::Migration
   def change
-    change_column :posts, :post_status, :string and after running rake db:migrate
+    change_column :posts, :post_status, :string
   end
 end
